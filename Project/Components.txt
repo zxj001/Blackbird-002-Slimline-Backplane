@@ -1,0 +1,30 @@
+#####################################
+MOUSER
+	
+Mouser #:	538-67800-7005
+Mfr. #:	67800-7005
+Desc.:	I/O Connectors I/O Connectors 1.27MM High Speed Co d Conn. Verticle L/F
+4	$0.71	$2.84	
+4 Shipped	10-May-18	48062753
+
+Mouser #:	538-67800-8005
+Mfr. #:	67800-8005
+Desc.:	I/O Connectors I/O Connectors 7Ckt Vert Signal Hdr w/tabs locking latch
+4	$0.61	$2.44	
+4 Shipped	10-May-18	48062753
+
+Mouser #:	538-67800-5005
+Mfr. #:	67800-5005
+Desc.:	I/O Connectors I/O Connectors 7Ckt Vert Signal Hdr SMT w/ locking latch
+4	$0.66	$2.64	
+4 Shipped	10-May-18	48062753
+
+Mouser #:	538-15-24-4745
+Mfr. #:	15-24-4745
+Desc.:	Power to the Board Power to the Board HI TEMP VERT HDR lead free
+
+#####################################
+DIGIKEY
+
+Index	Quantity	Cancelled	Quantity Shipped	Part Number	Description	Customer Reference	Backorder	Unit Price	Extended Price
+1	5	0	5	1735539-2-SI-ND	SLIMLINE SATA RECPT VERTICAL SMT		0	1.68000	$8.40
