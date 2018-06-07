@@ -212,10 +212,10 @@ F 3 "" H 5100 4200 50  0001 C CNN
 $EndComp
 Connection ~ 5300 4500
 $Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x07 Sata_Data?
+L Backbird-002-Slimline-PCB-rescue:Conn_01x07 Sata_Data2
 U 1 1 5B19E3C5
 P 5100 5200
-F 0 "Sata_Data?" H 5020 5717 50  0000 C CNN
+F 0 "Sata_Data2" H 5020 5717 50  0000 C CNN
 F 1 "Conn_01x07" H 5020 5626 50  0000 C CNN
 F 2 "" H 5100 5200 50  0001 C CNN
 F 3 "" H 5100 5200 50  0001 C CNN
@@ -229,10 +229,10 @@ Wire Wire Line
 Wire Wire Line
 	5600 3900 5300 3900
 $Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x07 SataSlimline_Data?
+L Backbird-002-Slimline-PCB-rescue:Conn_01x07 SataSlimline_Data1
 U 1 1 5B19F411
 P 5800 1750
-F 0 "SataSlimline_Data?" H 5880 1792 50  0000 L CNN
+F 0 "SataSlimline_Data1" H 5880 1792 50  0000 L CNN
 F 1 "Conn_01x07" H 5880 1701 50  0000 L CNN
 F 2 "" H 5800 1750 50  0001 C CNN
 F 3 "" H 5800 1750 50  0001 C CNN
