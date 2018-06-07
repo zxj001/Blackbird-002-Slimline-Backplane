@@ -61,28 +61,6 @@ $EndComp
 Text Notes 2500 4650 2    60   ~ 0
 +12V\nGND\nGND\n+5V
 $Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x06 Sata1
-U 1 1 5B10CD9C
-P 5100 4300
-F 0 "Sata1" H 5100 4600 50  0000 C CNN
-F 1 "Conn_01x06" H 5100 3900 50  0000 C CNN
-F 2 "Connectors:SATA-7_THT_VERT_2" H 5100 4300 50  0001 C CNN
-F 3 "" H 5100 4300 50  0001 C CNN
-	1    5100 4300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x06 SataSlimline1
-U 1 1 5B10CE60
-P 5800 1650
-F 0 "SataSlimline1" H 5800 1950 50  0000 C CNN
-F 1 "Conn_01x06" H 5800 1250 50  0000 C CNN
-F 2 "Connectors:SATA-7_THT_VERT_2" H 5800 1650 50  0001 C CNN
-F 3 "" H 5800 1650 50  0001 C CNN
-	1    5800 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Backbird-002-Slimline-PCB-rescue:Conn_01x07 SataSlimline_Power1
 U 1 1 5B10CE99
 P 2950 3500
@@ -95,17 +73,6 @@ F 3 "" H 2950 3500 50  0001 C CNN
 $EndComp
 Text Notes 3350 3800 0    60   ~ 0
 Coding\nDevice Presence\n+5V\n+5V\nDiagnostics\nGND\nGND
-$Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x06 Sata2
-U 1 1 5B10D3FA
-P 5100 5100
-F 0 "Sata2" H 5100 5400 50  0000 C CNN
-F 1 "Conn_01x06" H 5100 4700 50  0000 C CNN
-F 2 "Connectors:SATA-7_THT_VERT_2" H 5100 5100 50  0001 C CNN
-F 3 "" H 5100 5100 50  0001 C CNN
-	1    5100 5100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 2000 2600 2100
 Wire Wire Line
@@ -185,17 +152,14 @@ Wire Wire Line
 	5300 5100 5400 5100
 Wire Wire Line
 	5400 5100 5400 4300
-Connection ~ 5300 4300
 Wire Wire Line
 	5300 5200 5450 5200
 Wire Wire Line
 	5450 5200 5450 4200
-Connection ~ 5300 4200
 Wire Wire Line
 	5300 5300 5500 5300
 Wire Wire Line
 	5500 5300 5500 4100
-Connection ~ 5300 4100
 Wire Wire Line
 	5300 5400 5550 5400
 Wire Wire Line
@@ -204,7 +168,6 @@ Wire Wire Line
 	5550 4000 5300 4000
 Wire Wire Line
 	4950 4000 4950 1950
-Connection ~ 5300 4000
 NoConn ~ 2750 3600
 NoConn ~ 2750 3300
 NoConn ~ 2750 3200
@@ -236,4 +199,69 @@ Wire Wire Line
 	5300 4000 4950 4000
 Wire Wire Line
 	2700 4450 2700 4550
+$Comp
+L Backbird-002-Slimline-PCB-rescue:Conn_01x07 Sata_Data1
+U 1 1 5B19C63F
+P 5100 4200
+F 0 "Sata_Data1" H 5020 3675 50  0000 C CNN
+F 1 "Conn_01x07" H 5020 3766 50  0000 C CNN
+F 2 "" H 5100 4200 50  0001 C CNN
+F 3 "" H 5100 4200 50  0001 C CNN
+	1    5100 4200
+	-1   0    0    1   
+$EndComp
+Connection ~ 5300 4500
+$Comp
+L Backbird-002-Slimline-PCB-rescue:Conn_01x07 Sata_Data?
+U 1 1 5B19E3C5
+P 5100 5200
+F 0 "Sata_Data?" H 5020 5717 50  0000 C CNN
+F 1 "Conn_01x07" H 5020 5626 50  0000 C CNN
+F 2 "" H 5100 5200 50  0001 C CNN
+F 3 "" H 5100 5200 50  0001 C CNN
+	1    5100 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5500 5600 5500
+Wire Wire Line
+	5600 5500 5600 3900
+Wire Wire Line
+	5600 3900 5300 3900
+$Comp
+L Backbird-002-Slimline-PCB-rescue:Conn_01x07 SataSlimline_Data?
+U 1 1 5B19F411
+P 5800 1750
+F 0 "SataSlimline_Data?" H 5880 1792 50  0000 L CNN
+F 1 "Conn_01x07" H 5880 1701 50  0000 L CNN
+F 2 "" H 5800 1750 50  0001 C CNN
+F 3 "" H 5800 1750 50  0001 C CNN
+	1    5800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2050 5000 2050
+Wire Wire Line
+	5000 2050 5000 3900
+Wire Wire Line
+	5000 3900 5300 3900
+Text GLabel 5050 4900 0    60   Input ~ 0
+GND
+Text GLabel 5050 5200 0    60   Input ~ 0
+GND
+Text GLabel 5050 5000 0    60   Input ~ 0
+A+
+Text GLabel 5050 5100 0    60   Input ~ 0
+A-
+Text GLabel 5050 5300 0    60   Input ~ 0
+B-
+Text GLabel 5050 5400 0    60   Input ~ 0
+B+
+Text GLabel 5050 5500 0    60   Input ~ 0
+GND
+Connection ~ 5300 3900
+Connection ~ 5300 4000
+Connection ~ 5300 4100
+Connection ~ 5300 4200
+Connection ~ 5300 4300
 $EndSCHEMATC
