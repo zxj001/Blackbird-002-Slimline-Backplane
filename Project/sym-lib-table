@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Backbird-002-Slimline-PCB-rescue)(type Legacy)(uri "${KIPRJMOD}/Backbird 002 Slimline PCB-rescue.lib")(options "")(descr ""))
+)
