@@ -106,12 +106,12 @@ GND
 $Comp
 L Backbird-002-Slimline-PCB-rescue:Conn_01x04 Power_4pin1
 U 1 1 5B1AF5DD
-P 3900 5450
-F 0 "Power_4pin1" H 3900 5650 50  0000 C CNN
-F 1 "Conn_01x04" H 3900 5150 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_4xInline_1-2mmDrill" H 3900 5450 50  0001 C CNN
-F 3 "" H 3900 5450 50  0001 C CNN
-	1    3900 5450
+P 4550 5450
+F 0 "Power_4pin1" H 4550 5650 50  0000 C CNN
+F 1 "Conn_01x04" H 4550 5150 50  0000 C CNN
+F 2 "ProjectFootprints:MOLEX_8981_Generic" H 4550 5450 50  0001 C CNN
+F 3 "" H 4550 5450 50  0001 C CNN
+	1    4550 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -206,33 +206,33 @@ Text GLabel 3550 2950 0    60   Input ~ 0
 B+
 Text GLabel 3550 3050 0    60   Input ~ 0
 GND
-Text GLabel 3700 5650 0    60   Input ~ 0
+Text GLabel 4350 5650 0    60   Input ~ 0
 +5V
-Text GLabel 3700 5550 0    60   Input ~ 0
+Text GLabel 4350 5550 0    60   Input ~ 0
 GND
-Text GLabel 3700 5450 0    60   Input ~ 0
+Text GLabel 4350 5450 0    60   Input ~ 0
 GND
-Text GLabel 3700 5350 0    60   Input ~ 0
+Text GLabel 4350 5350 0    60   Input ~ 0
 +12V
 $Comp
-L Connector:Conn_01x01 Screw_Hole_B
+L Connector:Conn_01x01 Screw_Hole_B1
 U 1 1 5B1E13D1
 P 2850 3900
-F 0 "Screw_Hole_B" H 2929 3942 50  0000 L CNN
+F 0 "Screw_Hole_B1" H 2929 3942 50  0000 L CNN
 F 1 "Conn_01x01" H 2929 3851 50  0000 L CNN
-F 2 "" H 2850 3900 50  0001 C CNN
+F 2 "ProjectFootprints:Blackbird002_Slimline_PCB_Screw" H 2850 3900 50  0001 C CNN
 F 3 "~" H 2850 3900 50  0001 C CNN
 	1    2850 3900
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2650 3900
 $Comp
-L Connector:Conn_01x01 Screw_Hole_T?
+L Connector:Conn_01x01 Screw_Hole_T1
 U 1 1 5B1E164C
 P 2500 1350
-F 0 "Screw_Hole_T?" H 2579 1392 50  0000 L CNN
+F 0 "Screw_Hole_T1" H 2579 1392 50  0000 L CNN
 F 1 "Conn_01x01" H 2579 1301 50  0000 L CNN
-F 2 "" H 2500 1350 50  0001 C CNN
+F 2 "ProjectFootprints:Blackbird002_Slimline_PCB_Screw" H 2500 1350 50  0001 C CNN
 F 3 "~" H 2500 1350 50  0001 C CNN
 	1    2500 1350
 	1    0    0    -1  
