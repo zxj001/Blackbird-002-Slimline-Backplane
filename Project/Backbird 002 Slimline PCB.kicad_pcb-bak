@@ -122,7 +122,7 @@
   )
 
   (module Resistors_Universal:Resistor_SMD+THTuniversal_2512_RM10_HandSoldering (layer F.Cu) (tedit 0) (tstamp 5B1BC8C7)
-    (at 73 40.29 270)
+    (at 78.6 42.69 270)
     (descr "Resistor, SMD+THT, 2512, RM10, Hand soldering,")
     (tags "Resistor, SMD+THT, 2512, RM10, Hand soldering,")
     (path /5B10C260)
@@ -237,7 +237,7 @@
   )
 
   (module LEDs:LED_D1.8mm_W3.3mm_H2.4mm (layer F.Cu) (tedit 5880A862) (tstamp 5B1BC888)
-    (at 81.89 37.75 180)
+    (at 87.49 40.15 180)
     (descr "LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins")
     (tags "LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins")
     (path /5B10C28E)
@@ -278,7 +278,7 @@
   )
 
   (module Wire_Pads:SolderWirePad_single_1-2mmDrill (layer F.Cu) (tedit 0) (tstamp 5B1BC88D)
-    (at 73 50.45 90)
+    (at 78.6 52.85 90)
     (path /5B1B7221)
     (fp_text reference Hole1 (at 0 -3.81 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -291,7 +291,7 @@
   )
 
   (module Wire_Pads:SolderWirePad_single_1-2mmDrill (layer F.Cu) (tedit 0) (tstamp 5B1BC892)
-    (at 81.89 42.83 90)
+    (at 87.49 45.23 90)
     (path /5B1B7286)
     (fp_text reference Hole2 (at 0 -3.81 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -304,7 +304,7 @@
   )
 
   (module Resistors_Universal:Resistor_SMD+THTuniversal_2512_RM10_HandSoldering (layer F.Cu) (tedit 0) (tstamp 5B1BC8B9)
-    (at 78.08 30.13 180)
+    (at 83.68 32.53 180)
     (descr "Resistor, SMD+THT, 2512, RM10, Hand soldering,")
     (tags "Resistor, SMD+THT, 2512, RM10, Hand soldering,")
     (path /5B10C22E)
