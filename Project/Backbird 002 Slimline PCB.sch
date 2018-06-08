@@ -47,17 +47,6 @@ F 3 "" H 2900 2100 50  0001 C CNN
 	1    2900 2100
 	-1   0    0    1   
 $EndComp
-$Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x04 Molex_4pin1
-U 1 1 5B10C5B0
-P 2950 4450
-F 0 "Molex_4pin1" H 2950 4650 50  0000 C CNN
-F 1 "Conn_01x04" H 2950 4150 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_Pico-EZmate_04x1.20mm_Angled" H 2950 4450 50  0001 C CNN
-F 3 "" H 2950 4450 50  0001 C CNN
-	1    2950 4450
-	1    0    0    -1  
-$EndComp
 Text Notes 2500 4650 2    60   ~ 0
 +12V\nGND\nGND\n+5V
 $Comp
@@ -79,9 +68,7 @@ Wire Wire Line
 	2750 2100 2600 2100
 Connection ~ 2600 2100
 Wire Wire Line
-	2600 2500 2600 3500
-Wire Wire Line
-	2600 4650 2750 4650
+	2600 2500 2600 2800
 Wire Wire Line
 	3050 2100 3200 2100
 Wire Wire Line
@@ -94,10 +81,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3700 2700 3800
 Wire Wire Line
-	2700 4550 2750 4550
-Wire Wire Line
 	2700 3800 2750 3800
-Connection ~ 2700 4150
 Wire Wire Line
 	2700 3700 2750 3700
 Connection ~ 2700 3800
@@ -172,15 +156,9 @@ NoConn ~ 2750 3600
 NoConn ~ 2750 3300
 NoConn ~ 2750 3200
 Wire Wire Line
-	2750 4450 2700 4450
-Connection ~ 2700 4450
-NoConn ~ 2750 4350
-Wire Wire Line
 	2600 2100 2600 2200
 Wire Wire Line
-	3200 2100 3200 4150
-Wire Wire Line
-	2700 4150 2700 4450
+	3200 2100 3200 2800
 Wire Wire Line
 	2700 3800 2700 4150
 Wire Wire Line
@@ -264,4 +242,75 @@ Connection ~ 5300 4000
 Connection ~ 5300 4100
 Connection ~ 5300 4200
 Connection ~ 5300 4300
+$Comp
+L Backbird-002-Slimline-PCB-rescue:Conn_01x04 Power_4pin1
+U 1 1 5B1AF5DD
+P 3650 4450
+F 0 "Power_4pin1" H 3650 4650 50  0000 C CNN
+F 1 "Conn_01x04" H 3650 4150 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Pico-EZmate_04x1.20mm_Angled" H 3650 4450 50  0001 C CNN
+F 3 "" H 3650 4450 50  0001 C CNN
+	1    3650 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 4450
+Connection ~ 2700 4150
+Wire Wire Line
+	2700 4150 2700 4450
+Wire Wire Line
+	3450 4650 2750 4650
+Wire Wire Line
+	2600 4650 2750 4650
+Connection ~ 2750 4650
+Wire Wire Line
+	2750 4550 3450 4550
+Wire Wire Line
+	2700 4550 2750 4550
+Connection ~ 2750 4550
+Wire Wire Line
+	3450 4450 2750 4450
+Wire Wire Line
+	2750 4450 2700 4450
+Connection ~ 2750 4450
+$Comp
+L Backbird-002-Slimline-PCB-rescue:Conn_01x04 Molex_4pin1
+U 1 1 5B10C5B0
+P 2950 4450
+F 0 "Molex_4pin1" H 2950 4650 50  0000 C CNN
+F 1 "Conn_01x04" H 2950 4150 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Pico-EZmate_04x1.20mm_Angled" H 2950 4450 50  0001 C CNN
+F 3 "" H 2950 4450 50  0001 C CNN
+	1    2950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4350 3450 4350
+$Comp
+L Connector:Conn_01x01 Hole1
+U 1 1 5B1B7221
+P 2400 2800
+F 0 "Hole1" H 2750 2750 50  0000 R CNN
+F 1 "Conn_01x01" H 3000 2850 50  0000 R CNN
+F 2 "" H 2400 2800 50  0001 C CNN
+F 3 "~" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	-1   0    0    1   
+$EndComp
+Connection ~ 2600 2800
+Wire Wire Line
+	2600 2800 2600 3500
+$Comp
+L Connector:Conn_01x01 Hole2
+U 1 1 5B1B7286
+P 3400 2800
+F 0 "Hole2" H 3480 2842 50  0000 L CNN
+F 1 "Conn_01x01" H 3480 2751 50  0000 L CNN
+F 2 "" H 3400 2800 50  0001 C CNN
+F 3 "~" H 3400 2800 50  0001 C CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 2800
+Wire Wire Line
+	3200 2800 3200 4150
 $EndSCHEMATC
