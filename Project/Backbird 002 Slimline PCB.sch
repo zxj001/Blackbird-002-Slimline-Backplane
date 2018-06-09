@@ -79,42 +79,6 @@ F 3 "" H 3000 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x07 Sata_Data2
-U 1 1 5B19E3C5
-P 3650 4750
-F 0 "Sata_Data2" H 3570 5267 50  0000 C CNN
-F 1 "Conn_01x07" H 3570 5176 50  0000 C CNN
-F 2 "ProjectFootprints:SATA_DATA_678007005_CustomPad" H 3650 4750 50  0001 C CNN
-F 3 "" H 3650 4750 50  0001 C CNN
-	1    3650 4750
-	-1   0    0    -1  
-$EndComp
-Text GLabel 3850 4450 2    60   Input ~ 0
-GND
-Text GLabel 3850 4750 2    60   Input ~ 0
-GND
-Text GLabel 3850 4550 2    60   Input ~ 0
-A+
-Text GLabel 3850 4650 2    60   Input ~ 0
-A-
-Text GLabel 3850 4850 2    60   Input ~ 0
-B-
-Text GLabel 3850 4950 2    60   Input ~ 0
-B+
-Text GLabel 3850 5050 2    60   Input ~ 0
-GND
-$Comp
-L Backbird-002-Slimline-PCB-rescue:Conn_01x04 Power_4pin1
-U 1 1 5B1AF5DD
-P 4550 5450
-F 0 "Power_4pin1" H 4550 5650 50  0000 C CNN
-F 1 "Conn_01x04" H 4550 5150 50  0000 C CNN
-F 2 "ProjectFootprints:MOLEX_8981_Generic" H 4550 5450 50  0001 C CNN
-F 3 "" H 4550 5450 50  0001 C CNN
-	1    4550 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Backbird-002-Slimline-PCB-rescue:Conn_01x04 Molex_4pin1
 U 1 1 5B10C5B0
 P 2950 5450
@@ -131,7 +95,7 @@ U 1 1 5B1B7221
 P 3200 2050
 F 0 "+5V_Hole1" H 3750 2000 50  0000 R CNN
 F 1 "Conn_01x01" H 3800 2100 50  0000 R CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 3200 2050 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 3200 2050 50  0001 C CNN
 F 3 "~" H 3200 2050 50  0001 C CNN
 	1    3200 2050
 	-1   0    0    1   
@@ -142,7 +106,7 @@ U 1 1 5B1B7286
 P 4200 2050
 F 0 "GND_Hole2" H 4280 2092 50  0000 L CNN
 F 1 "Conn_01x01" H 4280 2001 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 4200 2050 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4200 2050 50  0001 C CNN
 F 3 "~" H 4200 2050 50  0001 C CNN
 	1    4200 2050
 	1    0    0    -1  
@@ -206,14 +170,6 @@ Text GLabel 3550 2950 0    60   Input ~ 0
 B+
 Text GLabel 3550 3050 0    60   Input ~ 0
 GND
-Text GLabel 4350 5650 0    60   Input ~ 0
-+5V
-Text GLabel 4350 5550 0    60   Input ~ 0
-GND
-Text GLabel 4350 5450 0    60   Input ~ 0
-GND
-Text GLabel 4350 5350 0    60   Input ~ 0
-+12V
 $Comp
 L Connector:Conn_01x01 Screw_Hole_B1
 U 1 1 5B1E13D1
