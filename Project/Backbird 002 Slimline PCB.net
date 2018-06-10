@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "/Users/jasonxzhang/Documents/Backbird 002 Slimline PCB/Project/Backbird 002 Slimline PCB.sch")
-    (date "Friday, June 08, 2018 at 04:45:11 PM")
+    (source "/Users/jasonxzhang/Documents/Blackbird 002 Slimline PCB/Project/Backbird 002 Slimline PCB.sch")
+    (date "Saturday, June 09, 2018 at 07:02:16 PM")
     (tool "Eeschema (5.0.0-rc2-92-g9552e02)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -75,7 +75,7 @@
       (tstamp 5B1E13D1))
     (comp (ref Screw_Hole_T1)
       (value Conn_01x01)
-      (footprint ProjectFootprints:Blackbird002_Slimline_PCB_Screw)
+      (footprint ProjectFootprints:Blackbird002_Slimline_PCB_Screw_Long)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x01) (description "Generic connector, single row, 01x01"))
       (sheetpath (names /) (tstamps /))
@@ -179,7 +179,7 @@
         (pin (num 13) (name Pin_13) (type passive)))))
   (libraries
     (library (logical Backbird-002-Slimline-PCB-rescue)
-      (uri "/Users/jasonxzhang/Documents/Backbird 002 Slimline PCB/Project/Backbird 002 Slimline PCB-rescue.lib"))
+      (uri "/Users/jasonxzhang/Documents/Blackbird 002 Slimline PCB/Project/Backbird 002 Slimline PCB-rescue.lib"))
     (library (logical Connector)
       (uri "/Library/Application Support/kicad/library/Connector.lib")))
   (nets
