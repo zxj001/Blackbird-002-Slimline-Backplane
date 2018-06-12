@@ -95,7 +95,7 @@ U 1 1 5B1B7221
 P 3200 2050
 F 0 "+5V_Hole1" H 3750 2000 50  0000 R CNN
 F 1 "Conn_01x01" H 3800 2100 50  0000 R CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 3200 2050 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 3200 2050 50  0001 C CNN
 F 3 "~" H 3200 2050 50  0001 C CNN
 	1    3200 2050
 	-1   0    0    1   
@@ -106,7 +106,7 @@ U 1 1 5B1B7286
 P 4200 2050
 F 0 "GND_Hole2" H 4280 2092 50  0000 L CNN
 F 1 "Conn_01x01" H 4280 2001 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 4200 2050 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4200 2050 50  0001 C CNN
 F 3 "~" H 4200 2050 50  0001 C CNN
 	1    4200 2050
 	1    0    0    -1  

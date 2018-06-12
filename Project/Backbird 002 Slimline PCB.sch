@@ -188,7 +188,7 @@ U 1 1 5B1E164C
 P 2500 1350
 F 0 "Screw_Hole_T1" H 2579 1392 50  0000 L CNN
 F 1 "Conn_01x01" H 2579 1301 50  0000 L CNN
-F 2 "ProjectFootprints:Blackbird002_Slimline_PCB_Screw" H 2500 1350 50  0001 C CNN
+F 2 "ProjectFootprints:Blackbird002_Slimline_PCB_Screw_Long" H 2500 1350 50  0001 C CNN
 F 3 "~" H 2500 1350 50  0001 C CNN
 	1    2500 1350
 	1    0    0    -1  
