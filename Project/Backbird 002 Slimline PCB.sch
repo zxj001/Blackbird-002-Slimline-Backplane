@@ -89,28 +89,6 @@ F 3 "" H 2950 5450 50  0001 C CNN
 	1    2950 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x01 +5V_Hole1
-U 1 1 5B1B7221
-P 3200 2050
-F 0 "+5V_Hole1" H 3750 2000 50  0000 R CNN
-F 1 "Conn_01x01" H 3800 2100 50  0000 R CNN
-F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 3200 2050 50  0001 C CNN
-F 3 "~" H 3200 2050 50  0001 C CNN
-	1    3200 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01 GND_Hole2
-U 1 1 5B1B7286
-P 4200 2050
-F 0 "GND_Hole2" H 4280 2092 50  0000 L CNN
-F 1 "Conn_01x01" H 4280 2001 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4200 2050 50  0001 C CNN
-F 3 "~" H 4200 2050 50  0001 C CNN
-	1    4200 2050
-	1    0    0    -1  
-$EndComp
 Text GLabel 3550 3550 0    60   Input ~ 0
 GND
 Text GLabel 3550 3650 0    60   Input ~ 0
@@ -150,8 +128,6 @@ Text GLabel 2750 5550 0    60   Input ~ 0
 GND
 Text GLabel 2750 5450 0    60   Input ~ 0
 GND
-Text GLabel 2750 5350 0    60   Input ~ 0
-+12V
 Text GLabel 3400 2050 3    60   Input ~ 0
 +5V
 Text GLabel 4000 2050 3    60   Input ~ 0
@@ -194,4 +170,5 @@ F 3 "~" H 2500 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2300 1350
+NoConn ~ 2750 5350
 $EndSCHEMATC
