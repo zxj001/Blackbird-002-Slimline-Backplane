@@ -230,7 +230,7 @@
   )
 
   (module ProjectFootprints:MOLEX_8981_0015244745 (layer F.Cu) (tedit 5B1AFE88) (tstamp 5B1BC8A3)
-    (at 107.3 118.1 90)
+    (at 107.3 120.52 90)
     (path /5B10C5B0)
     (fp_text reference Molex_4pin1 (at -6.62 -4.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
